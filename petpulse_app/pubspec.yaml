@@ -1,7 +1,7 @@
 name: petpulse_app
 description: PetPulse - Digital pet passport and health tracker.
 publish_to: 'none'
-version: 1.0.1+1
+version: 1.0.2+2
 
 environment:
   sdk: ^3.11.3
@@ -34,6 +34,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
 
 flutter:
   uses-material-design: true
@@ -41,3 +43,15 @@ flutter:
 
   assets:
     - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#E11D48"
+  image: "assets/icon/app_icon.png"
+  android: true
+  ios: true
