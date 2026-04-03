@@ -1,0 +1,173 @@
+{
+  "@@locale": "de",
+  "appTitle": "PetPulse",
+  "addPet": "Haustier hinzufuegen",
+  "editPet": "Haustier bearbeiten",
+  "deletePet": "Haustier loeschen",
+  "petName": "Name des Haustiers",
+  "species": "Tierart",
+  "breed": "Rasse",
+  "birthday": "Geburtstag",
+  "photo": "Foto",
+  "notes": "Notizen",
+  "vaccinations": "Impfungen",
+  "medications": "Medikamente",
+  "weight": "Gewicht",
+  "petPassport": "Haustierpass",
+  "markAsGiven": "Als gegeben markieren",
+  "dueToday": "Heute faellig",
+  "expired": "Abgelaufen",
+  "expiresIn": "Laeuft in {days} Tagen ab",
+  "@expiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiredDaysAgo": "Vor {days} Tagen abgelaufen",
+  "@expiredDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "addVaccination": "Impfung hinzufuegen",
+  "editVaccination": "Impfung bearbeiten",
+  "addMedication": "Medikament hinzufuegen",
+  "editMedication": "Medikament bearbeiten",
+  "logWeight": "Gewicht erfassen",
+  "export": "Exportieren",
+  "share": "Teilen",
+  "settings": "Einstellungen",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "delete": "Loeschen",
+  "confirm": "Bestaetigen",
+  "overview": "Uebersicht",
+  "vaccinationName": "Impfungsname",
+  "dateAdministered": "Verabreichungsdatum",
+  "expirationDate": "Ablaufdatum",
+  "vetName": "Tierarztname",
+  "medicationName": "Medikamentenname",
+  "dosage": "Dosierung",
+  "frequency": "Haeufigkeit",
+  "startDate": "Startdatum",
+  "endDate": "Enddatum",
+  "daily": "Taeglich",
+  "weekly": "Woechentlich",
+  "monthly": "Monatlich",
+  "weightKg": "Gewicht (kg)",
+  "date": "Datum",
+  "noPets": "Noch keine Haustiere. Fuegen Sie Ihr erstes hinzu!",
+  "noVaccinations": "Keine Impfungen erfasst.",
+  "noMedications": "Keine Medikamente erfasst.",
+  "noWeightEntries": "Noch keine Gewichtseintraege.",
+  "deleteConfirmTitle": "{name} loeschen?",
+  "@deleteConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteConfirmMessage": "Diese Aktion kann nicht rueckgaengig gemacht werden.",
+  "premium": "Premium",
+  "upgradeToPremium": "Auf Premium upgraden",
+  "premiumDescription": "Unbegrenzte Haustiere, PDF-Pass-Export, Medikamentenerinnerungen",
+  "premiumPrice": "14,99 $ einmalig",
+  "restorePurchases": "Kaeufe wiederherstellen",
+  "purchaseSuccess": "Kauf erfolgreich!",
+  "purchaseError": "Kauf fehlgeschlagen. Bitte versuchen Sie es erneut.",
+  "freeTierLimit": "Die kostenlose Version erlaubt 1 Haustier. Upgraden Sie fuer unbegrenzte Haustiere.",
+  "premiumFeature": "Dies ist eine Premium-Funktion.",
+  "weightTrend": "Gewichtsverlauf",
+  "generatePassport": "Pass erstellen",
+  "sharePassport": "Pass teilen",
+  "printPassport": "Pass drucken",
+  "petInformation": "Haustierinformationen",
+  "currentMedications": "Aktuelle Medikamente",
+  "latestWeight": "Aktuelles Gewicht",
+  "generatedBy": "Erstellt mit PetPulse",
+  "dog": "Hund",
+  "cat": "Katze",
+  "bird": "Vogel",
+  "rabbit": "Kaninchen",
+  "other": "Andere",
+  "selectSpecies": "Tierart waehlen",
+  "selectDate": "Datum waehlen",
+  "selectFrequency": "Haeufigkeit waehlen",
+  "fieldRequired": "Dieses Feld ist erforderlich",
+  "age": "Alter",
+  "years": "{count} Jahre",
+  "@years": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "months": "{count} Monate",
+  "@months": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weightUnit": "kg",
+  "medicationReminder": "Medikamentenerinnerung",
+  "medicationReminderBody": "Zeit, {petName} ihr {medicationName} zu geben",
+  "@medicationReminderBody": {
+    "placeholders": {
+      "petName": {
+        "type": "String"
+      },
+      "medicationName": {
+        "type": "String"
+      }
+    }
+  },
+  "vaccinationExpiring": "Impfung laeuft ab",
+  "vaccinationExpiringBody": "{petName}s {vaccinationName} laeuft in {days} Tagen ab",
+  "@vaccinationExpiringBody": {
+    "placeholders": {
+      "petName": {
+        "type": "String"
+      },
+      "vaccinationName": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vaccinationExpiredBody": "{petName}s {vaccinationName} ist abgelaufen!",
+  "@vaccinationExpiredBody": {
+    "placeholders": {
+      "petName": {
+        "type": "String"
+      },
+      "vaccinationName": {
+        "type": "String"
+      }
+    }
+  },
+  "markedAsGiven": "Als gegeben markiert",
+  "allPets": "Alle Haustiere",
+  "tapToAdd": "Tippen Sie +, um Ihr erstes Haustier hinzuzufuegen",
+  "choosePhoto": "Foto waehlen",
+  "takePhoto": "Foto aufnehmen",
+  "removePhoto": "Foto entfernen",
+  "aboutApp": "Ueber PetPulse",
+  "aboutDescription": "PetPulse hilft Ihnen, die Gesundheitsakten, Impfungen und Medikamente Ihres Haustiers an einem Ort zu verwalten.",
+  "version": "Version",
+  "publisher": "Heldig Lab",
+  "microchipId": "Mikrochip-ID",
+  "dueMedications": "Faellige Medikamente",
+  "upcomingVaccinations": "Bevorstehende Impfungen",
+  "freeMedicationLimit": "Kostenlose Version erlaubt 3 Medikamente. Upgrade auf Premium fuer unbegrenzte Anzahl.",
+  "weightLbs": "Gewicht (lbs)"
+}

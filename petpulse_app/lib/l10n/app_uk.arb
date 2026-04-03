@@ -1,0 +1,173 @@
+{
+  "@@locale": "uk",
+  "appTitle": "PetPulse",
+  "addPet": "Dodaty Tvarynku",
+  "editPet": "Redahuvaty Tvarynku",
+  "deletePet": "Vydalyty Tvarynku",
+  "petName": "Imia Tvaryny",
+  "species": "Vyd",
+  "breed": "Poroda",
+  "birthday": "Den Narodzhennia",
+  "photo": "Foto",
+  "notes": "Notatky",
+  "vaccinations": "Vaktsyatsii",
+  "medications": "Likuvannia",
+  "weight": "Vaha",
+  "petPassport": "Pasport Tvaryny",
+  "markAsGiven": "Poznatyty yak Dano",
+  "dueToday": "Zaplanvano na Sohodni",
+  "expired": "Proterminovano",
+  "expiresIn": "Splivae cherez {days} dniv",
+  "@expiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiredDaysAgo": "Proterminovano {days} dniv tomu",
+  "@expiredDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "addVaccination": "Dodaty Vaktsyatsiiu",
+  "editVaccination": "Redahuvaty Vaktsyatsiiu",
+  "addMedication": "Dodaty Likuvannia",
+  "editMedication": "Redahuvaty Likuvannia",
+  "logWeight": "Zapysaty Vahu",
+  "export": "Eksportuvaty",
+  "share": "Podilitysia",
+  "settings": "Nalashtuvannia",
+  "save": "Zberehty",
+  "cancel": "Skasuavty",
+  "delete": "Vydalyty",
+  "confirm": "Pidtverdyty",
+  "overview": "Ohliad",
+  "vaccinationName": "Nazva Vaktsyny",
+  "dateAdministered": "Data Vvedennia",
+  "expirationDate": "Termin Dii",
+  "vetName": "Imia Veteryanya",
+  "medicationName": "Nazva Liku",
+  "dosage": "Dozuvannia",
+  "frequency": "Chastotnist",
+  "startDate": "Data Pochatku",
+  "endDate": "Data Kintsya",
+  "daily": "Shchodnia",
+  "weekly": "Shchotyzhnia",
+  "monthly": "Shchomisiatsia",
+  "weightKg": "Vaha (kh)",
+  "date": "Data",
+  "noPets": "Shche nemaie tvaryn. Dodaite pershu tvarynku!",
+  "noVaccinations": "Nemaie vaktsyatsii.",
+  "noMedications": "Nemaie likuvannia.",
+  "noWeightEntries": "Shche nemaie zapysiv vahy.",
+  "deleteConfirmTitle": "Vydalyty {name}?",
+  "@deleteConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteConfirmMessage": "Tsiu diiu ne mozhna skasuavty.",
+  "premium": "Premium",
+  "upgradeToPremium": "Onovyty do Premium",
+  "premiumDescription": "Bezmezhna kilkist tvaryn, eksport PDF pasporta, nahaduvannia pro liky",
+  "premiumPrice": "$14.99 odnorazovo",
+  "restorePurchases": "Vidnovyty Pokupky",
+  "purchaseSuccess": "Pokupka uspishna!",
+  "purchaseError": "Pokupka ne vdalasia. Sprobuite shche raz.",
+  "freeTierLimit": "Bekoshtovnyi plan dozvoliaie 1 tvarynku. Onovit do Premium dlia bezmezhnoho.",
+  "premiumFeature": "Tse Premium funktsiia.",
+  "weightTrend": "Tendentsiia Vahy",
+  "generatePassport": "Stvoryty Pasport",
+  "sharePassport": "Podilitysia Pasportom",
+  "printPassport": "Drukuvaty Pasport",
+  "petInformation": "Informatsiia pro Tvaryny",
+  "currentMedications": "Potochni Liky",
+  "latestWeight": "Ostannia Vaha",
+  "generatedBy": "Stvnoreno PetPulse",
+  "dog": "Sobaka",
+  "cat": "Kit",
+  "bird": "Ptakh",
+  "rabbit": "Krolik",
+  "other": "Inshe",
+  "selectSpecies": "Obraty Vyd",
+  "selectDate": "Obraty Datu",
+  "selectFrequency": "Obraty Chastotnist",
+  "fieldRequired": "Tse pole oboviakove",
+  "age": "Vik",
+  "years": "{count} rokiv",
+  "@years": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "months": "{count} misiatsiv",
+  "@months": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weightUnit": "kh",
+  "medicationReminder": "Nahaduvannia pro Liky",
+  "medicationReminderBody": "Chas daty {petName} yikh {medicationName}",
+  "@medicationReminderBody": {
+    "placeholders": {
+      "petName": {
+        "type": "String"
+      },
+      "medicationName": {
+        "type": "String"
+      }
+    }
+  },
+  "vaccinationExpiring": "Vaktsyatsiia Splivae",
+  "vaccinationExpiringBody": "Vaktsyatsiia {vaccinationName} tvaryny {petName} splivae cherez {days} dniv",
+  "@vaccinationExpiringBody": {
+    "placeholders": {
+      "petName": {
+        "type": "String"
+      },
+      "vaccinationName": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vaccinationExpiredBody": "Vaktsyatsiia {vaccinationName} tvaryny {petName} proterminovana!",
+  "@vaccinationExpiredBody": {
+    "placeholders": {
+      "petName": {
+        "type": "String"
+      },
+      "vaccinationName": {
+        "type": "String"
+      }
+    }
+  },
+  "markedAsGiven": "Poznacheno yak dano",
+  "allPets": "Vsi Tvaryny",
+  "tapToAdd": "Natysnitdlia dodavannia pershoi tvaryny",
+  "choosePhoto": "Obraty Foto",
+  "takePhoto": "Zrobyty Foto",
+  "removePhoto": "Vydalyty Foto",
+  "aboutApp": "Pro PetPulse",
+  "aboutDescription": "PetPulse dopomahaie vam vidstezhuvaty zdorovia, vaktsyatsii ta liky vashoi tvaryny v odnomu mistsi.",
+  "version": "Versiia",
+  "publisher": "Heldig Lab",
+  "microchipId": "ID Mikrochypa",
+  "dueMedications": "Navchalni Liky",
+  "upcomingVaccinations": "Nablyzhenni Vaktsyatsii",
+  "freeMedicationLimit": "Bezkoshtovna versiia dozvoliaie 3 liky. Onovit do Premium dlia nelimytovanykh.",
+  "weightLbs": "Vaha (funt)"
+}
