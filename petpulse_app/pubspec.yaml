@@ -1,7 +1,7 @@
 name: petpulse_app
 description: PetPulse - Digital pet passport and health tracker.
 publish_to: 'none'
-version: 1.0.2+2
+version: 1.0.3+3
 
 environment:
   sdk: ^3.11.3
