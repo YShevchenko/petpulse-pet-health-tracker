@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:petpulse_app/l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../../core/constants.dart';
 import '../../core/theme/app_colors.dart';
@@ -19,27 +18,6 @@ class HomeScreen extends ConsumerStatefulWidget {
 }
 
 class _HomeScreenState extends ConsumerState<HomeScreen> {
-  BannerAd? _bannerAd;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadBannerAd();
-  }
-
-  void _loadBannerAd() {
-    final isPremium = ref.read(isPremiumProvider);
-    if (!isPremium) {
-      _bannerAd = ref.read(adServiceProvider).loadBannerAd();
-    }
-  }
-
-  @override
-  void dispose() {
-    _bannerAd?.dispose();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
@@ -110,7 +88,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     return PetCard(
                       pet: pet,
                       onTap: () {
-                        ref.read(adServiceProvider).trackScreenNavigation();
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -126,15 +103,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               },
             ),
           ),
-          // Banner ad for free tier
-          if (!isPremium && _bannerAd != null)
-            Container(
-              width: double.infinity,
-              height: 50,
-              alignment: Alignment.center,
-              color: AppColors.background,
-              child: AdWidget(ad: _bannerAd!),
-            ),
+          // Ads removed
         ],
       ),
       floatingActionButton: FloatingActionButton(
@@ -151,7 +120,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             }
           }
           if (context.mounted) {
-            ref.read(adServiceProvider).trackScreenNavigation();
             Navigator.push(
               context,
               MaterialPageRoute(builder: (_) => const AddPetScreen()),

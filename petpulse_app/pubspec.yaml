@@ -1,7 +1,7 @@
 name: petpulse_app
 description: PetPulse - Digital pet passport and health tracker.
 publish_to: 'none'
-version: 1.0.3+3
+version: 1.0.10+10
 
 environment:
   sdk: ^3.11.3
@@ -15,9 +15,7 @@ dependencies:
   sqflite: ^2.3.3
   path: ^1.9.0
   path_provider: ^2.1.4
-  google_mobile_ads: ^5.2.0
   in_app_purchase: ^3.2.1
-  app_tracking_transparency: ^2.0.6
   flutter_local_notifications: ^18.0.1
   fl_chart: ^0.69.2
   image_picker: ^1.1.2
@@ -44,14 +42,14 @@ flutter:
   assets:
     - assets/icons/
 
+flutter_native_splash:
+  color: "#E11D48"
+  android: true
+  ios: true
+
 flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
   remove_alpha_ios: true
-
-flutter_native_splash:
-  color: "#E11D48"
-  image: "assets/icon/app_icon.png"
-  android: true
-  ios: true
+  min_sdk_android: 21

@@ -59,14 +59,10 @@
 			<string>UIInterfaceOrientationLandscapeLeft</string>
 			<string>UIInterfaceOrientationLandscapeRight</string>
 		</array>
-		<key>NSUserTrackingUsageDescription</key>
-		<string>PetPulse uses this identifier to provide personalized ads. You can opt out at any time.</string>
 		<key>NSCameraUsageDescription</key>
 		<string>PetPulse needs camera access to take photos of your pets.</string>
 		<key>NSPhotoLibraryUsageDescription</key>
 		<string>PetPulse needs photo library access to select photos of your pets.</string>
-		<key>GADApplicationIdentifier</key>
-		<string>ca-app-pub-3940256099942544~1458002511</string>
 		<key>UISupportedInterfaceOrientations~ipad</key>
 		<array>
 			<string>UIInterfaceOrientationPortrait</string>
